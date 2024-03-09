@@ -21,14 +21,8 @@ public class DoorOpener : MonoBehaviour
     {
         door.transform.Rotate(Vector3.up, 90f); // Rotate around the Y-axis by 90 degrees
         doorOpen = true;
-        //Invoke("DelayedAction", 3f);
-        //CloseDoor();
     }
-    private void CloseDoor()
-    {
-        door.transform.Rotate(Vector3.up, -90f); // Rotate around the Y-axis by -90 degrees
-        doorOpen = false;
-    }
+   
 
     private bool IsPlayerAtDoorPosition()
     {
