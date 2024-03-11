@@ -140,12 +140,11 @@ public class Interactor : MonoBehaviour
         //(will not call ReadyInteract method properly) 
         readyInteract = false;
 
-        //call interface method on previously selected object (as current is null)
-        lastInteractable.OnEndInteract();
+        if (lastInteractable != null)
+            lastInteractable.OnEndInteract();
 
-        interactorUI.HideTextMessage(); //hide UI text element
+        interactorUI.HideTextMessage();
 
-        //Debug.Log("EndInteract");
     }
 
     //pubic override method that calls EndInteract if the GameObject that requested matches lastInteractable 

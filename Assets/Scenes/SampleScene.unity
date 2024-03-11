@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.10502117, g: 0.1348406, b: 0.1344526, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -29417,6 +29417,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.0034089077
       objectReference: {fileID: 0}
+    - target: {fileID: 6556843680060237843, guid: c708a3b79cd542b42bbfedb17e213bc1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556843680060237843, guid: c708a3b79cd542b42bbfedb17e213bc1,
+        type: 3}
+      propertyPath: rayMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556843680060237843, guid: c708a3b79cd542b42bbfedb17e213bc1,
+        type: 3}
+      propertyPath: layerMask.m_Bits
+      value: 51
+      objectReference: {fileID: 0}
     - target: {fileID: 6725500444371674235, guid: c708a3b79cd542b42bbfedb17e213bc1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29850,7 +29865,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 974238578668270704, guid: c708a3b79cd542b42bbfedb17e213bc1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 914757771}
   m_SourcePrefab: {fileID: 100100000, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
 --- !u!1001 &747070784
 PrefabInstance:
@@ -34315,6 +34334,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 906155122}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &914757763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 974238578668270704, guid: c708a3b79cd542b42bbfedb17e213bc1,
+    type: 3}
+  m_PrefabInstance: {fileID: 746633132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &914757771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914757763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405b8d76fe150a549b8d58eee47db2ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Interactable
+  rayMaxDistance: 20
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
+  interactorUI: {fileID: 0}
+  hint: {fileID: 0}
+  interactKey: 101
+  cancelInteractionKeys: 
 --- !u!4 &915930773 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 476602, guid: 6af6d0b9ef2bca54cb04f979d921648d,
