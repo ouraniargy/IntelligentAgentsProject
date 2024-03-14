@@ -3691,6 +3691,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 31763840}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &32188652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 663394693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &33103389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4372,6 +4378,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 51952510}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &53758345
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.960022
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3199463
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &55056819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8550,6 +8634,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 138972908}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &142969681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.200012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &146336654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9219,6 +9381,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 161760832}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &162509939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.930054
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.829956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1 &163267928
 GameObject:
   m_ObjectHideFlags: 0
@@ -13393,6 +13633,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 253604169}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &254291380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.309998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -71.23999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &256587930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16439,6 +16757,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 306892366}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &308169393
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.709961
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -73.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &308210562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18436,22 +18832,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1765337490}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 762.13
+      value: -30.71997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 887.79
+      value: -73.75
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
@@ -18461,7 +18857,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
@@ -18471,7 +18867,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
@@ -19383,6 +19779,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 357565345}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &359770275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 162509939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &360270995
 GameObject:
   m_ObjectHideFlags: 0
@@ -19708,6 +20110,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 364943176}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &364995435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.590027
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3199463
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &366434141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20261,6 +20741,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 375909158}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &375920023
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -34.109985
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -120.56
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1 &375929668
 GameObject:
   m_ObjectHideFlags: 0
@@ -20298,6 +20856,84 @@ Transform:
   - {fileID: 1930540398}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &377378579
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55.700012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -71.23999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &378615791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22211,6 +22847,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 417768025}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &418914691
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -49.940063
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.829956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &418948123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23367,6 +24081,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 423866, guid: 6c2bb458d4ac1614485f1c8ba5adb8f9,
     type: 3}
   m_PrefabInstance: {fileID: 1329014657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &445565993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 142969681}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &446282832
 PrefabInstance:
@@ -25329,6 +26049,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 491615458}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &495162642
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -48.96997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -77.06995
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &496054960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26375,6 +27173,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 515913066}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &517026138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 538360109}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &522393963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27092,6 +27896,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 538238995}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &538360109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.659973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &540576059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32272,6 +33154,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 659233334}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &659533032
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.9500122
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3199463
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &660569624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32435,22 +33395,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1765337490}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 764.49
+      value: -38.320007
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 888.38
+      value: -71.23999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
@@ -32460,7 +33420,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
@@ -32470,7 +33430,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
         type: 3}
@@ -37885,6 +38845,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 751911129}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &756219014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.690002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -71.23999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &760029207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40937,6 +41975,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 853006665}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &853483141 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 375920023}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &853486326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42581,6 +43625,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5da93bf3ff477c4f8f88f51e419c805, type: 3}
+--- !u!4 &887304851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1181296503}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &888670074
 GameObject:
   m_ObjectHideFlags: 0
@@ -55038,6 +56088,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1136471900}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1136524681 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 495162642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1136799780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56802,6 +57858,90 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1180314158}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1181296503
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.95996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -77.06995
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
+--- !u!4 &1181640789 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1391943237}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1183611078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56915,6 +58055,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 458024, guid: d2522dcf0fb8d6b4aa4ddd10c405746a,
     type: 3}
   m_PrefabInstance: {fileID: 1184072843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1185654452 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1774477368}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1185707119
 PrefabInstance:
@@ -57781,6 +58927,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1213767578}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1216070417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.419983
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3199463
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!4 &1216153465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 455408, guid: 1bf9bc82a9760b2488a711e79d36551e,
@@ -58662,6 +59886,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1243199278}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1243756234 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 340921174}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1244199004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59152,6 +60382,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 409092, guid: 5d08b8d8281644b468e0c8418758eb0d,
     type: 3}
   m_PrefabInstance: {fileID: 1251611295}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1253646490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 53758345}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1256476894
 PrefabInstance:
@@ -61973,6 +63209,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 457136, guid: 3c72a1ccba595c84daf7def9a8a6fe2d,
     type: 3}
   m_PrefabInstance: {fileID: 1307838201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1309065941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 418914691}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1310523019
 PrefabInstance:
@@ -64978,6 +66220,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c2bb458d4ac1614485f1c8ba5adb8f9, type: 3}
+--- !u!4 &1375566366 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1533010775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1376451577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65107,6 +66355,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 418454, guid: 06afbf445371afc45ac3030f064ae1d6,
     type: 3}
   m_PrefabInstance: {fileID: 1380842578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1383420815 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 364995435}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1384363362
 PrefabInstance:
@@ -65380,6 +66634,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1387131638}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1388693399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 377378579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1389609368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65445,6 +66705,84 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d826f29a6f86bc42b3d6a3a8babc75c, type: 3}
+--- !u!1001 &1391943237
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &1392843542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69945,8 +71283,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486956610}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 763.02, y: 0.979, z: 884.49}
+  m_LocalRotation: {x: -0.019294873, y: -0.92018753, z: 0.38830256, w: -0.04586801}
+  m_LocalPosition: {x: 784.2184, y: 26.68241, z: 985.3994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -72922,6 +74260,84 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c2bb458d4ac1614485f1c8ba5adb8f9, type: 3}
+--- !u!1001 &1533010775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -37.942993
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -121.79999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1 &1534815805 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3850289982170812392, guid: a9019f58a3b0a7e43917490b04330411,
@@ -75561,6 +76977,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 408074, guid: c391fb740f9eb854b8f5f65fdee0e866,
     type: 3}
   m_PrefabInstance: {fileID: 419096923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1599590876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2033938581}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1601948547
 PrefabInstance:
@@ -79120,6 +80542,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1685298778}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1693797938
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 194.06015
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 543.3199
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_Name
+      value: Ch28_nonPBR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: ab2243b0222448846a03f847479c6c05,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2a4a5edb81604964ca2c5bdf75d4e044, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab2243b0222448846a03f847479c6c05, type: 3}
 --- !u!1001 &1694462439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80593,6 +82088,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 420012, guid: 4154bf6e40fe42543a525d9b4fbc965f,
     type: 3}
   m_PrefabInstance: {fileID: 1719830809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1720626186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1811940035}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1721219871
 PrefabInstance:
@@ -82569,6 +84070,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1763612646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1765337489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1765337490}
+  m_Layer: 0
+  m_Name: Zombies in castle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1765337490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765337489}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 802.81, y: 0.01, z: 955.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1181640789}
+  - {fileID: 32188652}
+  - {fileID: 1388693399}
+  - {fileID: 1253646490}
+  - {fileID: 1383420815}
+  - {fileID: 1599590876}
+  - {fileID: 517026138}
+  - {fileID: 1908506886}
+  - {fileID: 1720626186}
+  - {fileID: 1309065941}
+  - {fileID: 445565993}
+  - {fileID: 359770275}
+  - {fileID: 1185654452}
+  - {fileID: 1840252700}
+  - {fileID: 1136524681}
+  - {fileID: 1243756234}
+  - {fileID: 2139874700}
+  - {fileID: 2004092062}
+  - {fileID: 1952972132}
+  - {fileID: 887304851}
+  - {fileID: 1375566366}
+  - {fileID: 853483141}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1766237784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82777,6 +84331,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1774175988}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1774477368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.550049
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.829956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &1775445319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84080,6 +85712,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1439057501}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1811940035
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.56006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.829956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1 &1813335648 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 178604, guid: 67833d6ba7c887d48933b3682ee1df40,
@@ -84977,6 +86687,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 440006, guid: 98ea3f81640ee854ca16574a1b280d2c,
     type: 3}
   m_PrefabInstance: {fileID: 1838569963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1840252700 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 659533032}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1842335154
 PrefabInstance:
@@ -87365,13 +89081,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905288922}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.98762, z: -0, w: 0.15686543}
+  m_LocalRotation: {x: -0.020706836, y: -0.9311019, z: -0.053523906, w: 0.3602161}
   m_LocalPosition: {x: -54.93634, y: 0.88474274, z: 15.902039}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 566912638}
-  m_LocalEulerAnglesHint: {x: 0, y: -161.95, z: 0}
+  m_LocalEulerAnglesHint: {x: -6.58, y: -137.7, z: 0}
 --- !u!1001 &1906983683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87580,6 +89296,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 420012, guid: 4154bf6e40fe42543a525d9b4fbc965f,
     type: 3}
   m_PrefabInstance: {fileID: 1907953502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1908506886 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1216070417}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1911112713
 PrefabInstance:
@@ -89627,6 +91349,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c25ef6b060067847bed35e736f9aa4e, type: 3}
+--- !u!4 &1952972132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 756219014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1953932386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91717,6 +93445,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b962e54cbd3b92c438734c5811b1ee30, type: 3}
+--- !u!4 &2004092062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 254291380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2005434918
 GameObject:
   m_ObjectHideFlags: 0
@@ -92742,6 +94476,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2033285025}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2033938581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1765337490}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.0100098
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.829956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Name
+      value: Warzombie F Pedroso (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0a51943da27fed84aa46e0ef7503dc37, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 6a263b5059700394ca0b92526e291ebc,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a263b5059700394ca0b92526e291ebc, type: 3}
 --- !u!1001 &2035016417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98326,6 +100138,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1696542820}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2139874700 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a263b5059700394ca0b92526e291ebc,
+    type: 3}
+  m_PrefabInstance: {fileID: 308169393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2142508764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98754,6 +100572,6 @@ SceneRoots:
   - {fileID: 496054960}
   - {fileID: 746633132}
   - {fileID: 1743673188}
-  - {fileID: 663394693}
-  - {fileID: 340921174}
+  - {fileID: 1693797938}
+  - {fileID: 1765337490}
   - {fileID: 1486956614}
