@@ -29,11 +29,16 @@ public class MainMenu : MonoBehaviour
 
     IEnumerator LoadYourAsyncScene()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("SampleScene");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("MainMenu");
+        asyncLoad.allowSceneActivation = false; 
         while (!asyncLoad.isDone)
         {
             progressBar.value = asyncLoad.progress;
             yield return null;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                asyncLoad.allowSceneActivation = true;
+            }
         }
     }
 
