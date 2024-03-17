@@ -4,22 +4,14 @@ using UnityEngine;
 
 public class messageDisplay : MonoBehaviour
 {
-    public GameObject messageDisplay; //can be text or 3d object
-
+    public GameObject messageDisplayObject; //can be text or 3d object
 
     private void OnTriggerEnter(Collider other)
-
     {
-
         //filter only player
-
-        if (other.tag == "Player")
-
+        if (other.CompareTag("Player"))
         {
-
-            messageDisplay.gameObject.SetActive(true);
-
+            messageDisplayObject.SetActive(true);
         }
-
     }
 }
