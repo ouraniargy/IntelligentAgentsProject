@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
@@ -39,7 +39,7 @@ public class MainMenu : MonoBehaviour
     IEnumerator LoadYourAsyncScene()
     {
         yield return new WaitForSeconds(5);
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("MainMenu");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("SampleScene");
         asyncLoad.allowSceneActivation = false; 
         while (!asyncLoad.isDone)
         {
