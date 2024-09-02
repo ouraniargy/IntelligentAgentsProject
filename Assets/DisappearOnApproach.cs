@@ -4,26 +4,24 @@ using UnityEngine;
 
 public class DisappearOnApproach : MonoBehaviour
 {
+    public Transform player;       // Αναφορά στον παίκτη
+    public float disappearDistance = 2.0f; // Απόσταση στην οποία το αντικείμενο θα εξαφανιστεί
 
-
-    public Transform hint; // Αν το χρησιμοποιείς, βεβαιώσου ότι είναι σωστά ρυθμισμένο.
-
-    private void Start()
+    // Update is called once per frame
+    void Update()
     {
-        // Επιβεβαίωση ότι το Collider είναι σωστά ρυθμισμένο
-        if (GetComponent<Collider>() == null)
+        if (player == null)
         {
-            Debug.LogError("Collider not found!");
+            Debug.LogError("Player transform not assigned!");
+            return;
         }
-    }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        // Έλεγχος αν το αντικείμενο που μπήκε στο trigger είναι ο παίκτης
-        if (other.CompareTag("Player"))
+        // Υπολογίζουμε την απόσταση μεταξύ του παίκτη και του αντικειμένου
+        float distance = Vector3.Distance(player.position, transform.position);
+
+        // Αν η απόσταση είναι μικρότερη ή ίση με την disappearDistance, το αντικείμενο εξαφανίζεται
+        if (distance <= disappearDistance)
         {
-            Debug.Log("Player entered the trigger zone.");
-            // Εξαφάνιση του αντικειμένου
             gameObject.SetActive(false);
         }
     }

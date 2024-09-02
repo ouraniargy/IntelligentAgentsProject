@@ -18,7 +18,7 @@ public class Interactor : MonoBehaviour
     //Edit/Project Setting/Physics/Layer Collision Mask to see layer interaction
     [SerializeField] private LayerMask layerMask = ~0; //negative binary of 0 -> 2^32-1
     [SerializeField] private InteractorUI interactorUI;
-    [SerializeField] private GameObject hint; //UI or 3D object hint (like "press E to interact")
+   // [SerializeField] private GameObject hint; //UI or 3D object hint (like "press E to interact")
 
     [Header("Buttons")] //--------------------------------------------------
     [SerializeField] private KeyCode interactKey = KeyCode.E;
@@ -40,7 +40,7 @@ public class Interactor : MonoBehaviour
         //we may put if statements on methods but this will fill up the code without practical use
         //...other that we forgot to assign these. We rimind it on the Start method.
         if (interactorUI==null) Debug.LogWarning("Interactor: InteractorUI component was not set.");
-        if (hint==null) Debug.LogWarning("Interactor: Hint GameObject was not set.");
+       // if (hint==null) Debug.LogWarning("Interactor: Hint GameObject was not set.");
 
         //call abort method that we know it resets variables instead of doing it here
         AbortInteract();
@@ -100,7 +100,7 @@ public class Interactor : MonoBehaviour
     void ReadyInteract(){
         readyInteract = true;
 
-        hint.SetActive(true); //show interact hint
+       // hint.SetActive(true); //show interact hint
 
         currentInteractable.OnReadyInteract(); //call interface method on selected/current object
         
@@ -111,7 +111,7 @@ public class Interactor : MonoBehaviour
     void AbortInteract(){
         readyInteract = false;
 
-        hint.SetActive(false); //hide interact hint
+      //  hint.SetActive(false); //hide interact hint
 
         if (lastInteractable != null)
             lastInteractable.OnAbortInteract(); //call interface method on previously selected object (as current is null)
@@ -123,7 +123,7 @@ public class Interactor : MonoBehaviour
         interacting = true;
         readyInteract = true; //consistancy with EndInteract (not so useful)
 
-        hint.SetActive(false); //hide interact hint
+      //  hint.SetActive(false); //hide interact hint
 
         //call interface method on selected/current object
         //send this interactor as parameter so object has a reference
