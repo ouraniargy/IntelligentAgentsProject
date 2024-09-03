@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class CollectWood : MonoBehaviour
 {
+    public AudioClip collectSound; // Αναφορά στο AudioClip για τον ήχο συλλογής
     // Η συνάρτηση αυτή καλείται όταν ένας άλλος Collider μπαίνει στον Trigger του αντικειμένου αυτού
     private void OnTriggerEnter(Collider other)
     {
         // Έλεγξε αν το αντικείμενο που συγκρούστηκε είναι ο player
         if (other.CompareTag("Player")) // Βεβαιώσου ότι ο player έχει το tag "Player"
         {
+            AudioSource.PlayClipAtPoint(collectSound, transform.position);
             // Εξαφάνισε το αντικείμενο (μπορείς να το κάνεις είτε με destroy είτε με απενεργοποίηση)
             Destroy(gameObject); // Εξαφανίζει το ξύλο
             // Alternately: gameObject.SetActive(false); // Απενεργοποιεί το ξύλο
