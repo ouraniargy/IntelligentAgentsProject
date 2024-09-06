@@ -12,6 +12,6 @@ public class WoodCounter : MonoBehaviour
     public void CollectWood()
     {
         woodCount++; // Αύξηση του αριθμού των ξύλων
-        woodCountText.text = "Wood Collected: " + woodCount; // Ενημέρωση του κειμένου
+        woodCountText.text = "Wood " + woodCount; // Ενημέρωση του κειμένου
     }
 }
