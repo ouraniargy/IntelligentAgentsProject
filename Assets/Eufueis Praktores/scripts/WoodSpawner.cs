@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WoodSpawner : MonoBehaviour
 {
-    public GameObject woodPrefab; // Το Prefab του ξύλου
-    public int numberOfWoods = 10; // Πόσα ξύλα θα δημιουργηθούν
+    public GameObject existingWood; // Το ήδη υπάρχων αντικείμενο ξύλου που έχεις δημιουργήσει
+    public int numberOfWoods = 10; // Πόσα ξύλα θα κλωνοποιηθούν
     public float fixedHeight = 1.0f; // Σταθερό ύψος εμφάνισης
     private Terrain terrain;
 
@@ -29,7 +29,9 @@ public class WoodSpawner : MonoBehaviour
             float terrainHeight = terrain.SampleHeight(new Vector3(randomX, 0, randomZ));
 
             Vector3 spawnPosition = new Vector3(randomX, terrainHeight, randomZ);
-            Instantiate(woodPrefab, spawnPosition, Quaternion.identity);
+
+            // Κλωνοποίηση του ήδη υπάρχοντος αντικειμένου αντί να δημιουργήσεις νέο prefab
+            Instantiate(existingWood, spawnPosition, Quaternion.identity);
         }
     }
 }
