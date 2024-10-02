@@ -202,16 +202,16 @@ public class GridGenerator : MonoBehaviour
         }
 
         public void Move(Vector2Int newPosition)
-{
-    // Ενημέρωση της θέσης του πράκτορα
-    position = newPosition;
+            {
+            // Ενημέρωση της θέσης του πράκτορα
+            position = newPosition;
 
-    // Προσθήκη της νέας θέσης στη λίστα των γνωστών θέσεων
-    if (!knownPositions.Contains(newPosition))
-    {
-        knownPositions.Add(newPosition);
+            // Προσθήκη της νέας θέσης στη λίστα των γνωστών θέσεων
+            if (!knownPositions.Contains(newPosition))
+            {
+                knownPositions.Add(newPosition);
+            }
     }
-}
 
 
         public void PickUpResource(string resource)

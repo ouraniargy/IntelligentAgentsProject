@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - MiniMapCamera
+  - Resource
+  - Agent
   layers:
   - Default
   - TransparentFX
