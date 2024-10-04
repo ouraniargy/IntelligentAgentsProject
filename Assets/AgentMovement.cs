@@ -10,7 +10,7 @@ public class AgentMovement : MonoBehaviour
     private bool hasLoggedNoResources = false; // Flag to log no resources message
     private Animator animator; // Αναφορά στον Animator
     public Transform[] waypoints; // Σημεία προορισμού (Waypoints)
-    public float speed = 1.0f;       // Walking speed
+    public float speed = 0.5f;       // Walking speed
     private int currentWaypointIndex = 0; // Τρέχον σημείο προορισμού
 
     void Start()
@@ -85,7 +85,7 @@ public class AgentMovement : MonoBehaviour
 
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
-        animator.SetBool("isWalking", true);
+        animator.SetBool("IsWalking", true);
 
     }
 
