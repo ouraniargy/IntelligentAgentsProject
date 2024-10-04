@@ -4,32 +4,41 @@ using UnityEngine;
 
 public class AgentSpawner : MonoBehaviour
 {
-    public GameObject agentPrefab; // Το prefab του agent που θέλουμε να κλωνοποιήσουμε
-    public int numberOfAgents = 4; // Ο αριθμός των agents που θέλουμε να πολλαπλασιάσουμε
-    public Vector3[] spawnPositions; // Θέσεις που θα εμφανιστούν οι agents
+    public GameObject existingAgent; 
+    public int numberOfAgents = 4; // Πόσα ξύλα θα κλωνοποιηθούν
+    public float fixedHeight = 1.0f; // Σταθερό ύψος εμφάνισης
+    private Terrain terrain;
 
     void Start()
     {
+        terrain = Terrain.activeTerrain;
         SpawnAgents();
     }
 
     void SpawnAgents()
     {
+        // Λαμβάνουμε το πλάτος και το μήκος του terrain χωρίς το localScale
+        float terrainWidth = terrain.terrainData.size.x;
+        float terrainLength = terrain.terrainData.size.z;
+        float terrainPosX = terrain.transform.position.x;
+        float terrainPosZ = terrain.transform.position.z;
+
         for (int i = 0; i < numberOfAgents; i++)
         {
-            Vector3 spawnPos;
+            // Περιορίζουμε τις τυχαίες συντεταγμένες στις διαστάσεις του terrain
+            float randomX = Random.Range(terrainPosX, terrainPosX + terrainWidth);
+            float randomZ = Random.Range(terrainPosZ, terrainPosZ + terrainLength);
 
-            // Αν δεν έχουν οριστεί συγκεκριμένες θέσεις, δημιουργούμε τυχαίες
-            if (spawnPositions.Length > i)
-            {
-                spawnPos = spawnPositions[i]; // Ορίζουμε συγκεκριμένες θέσεις από το array
-            }
-            else
-            {
-                spawnPos = new Vector3(Random.Range(-10f, 10f), 0, Random.Range(-10f, 10f)); // Τυχαίες θέσεις
-            }
+            // Υπολογισμός ύψους στο terrain για να τοποθετήσουμε σωστά το αντικείμενο
+            float terrainHeight = terrain.SampleHeight(new Vector3(randomX, 0, randomZ));
 
-            Instantiate(agentPrefab, spawnPos, Quaternion.identity); // Κλωνοποιούμε τον agent
+            // Δημιουργία της θέσης κλωνοποίησης
+            Vector3 spawnPosition = new Vector3(randomX, terrainHeight + 0.8f, randomZ);
+
+            // Κλωνοποίηση του αντικειμένου
+            Instantiate(existingAgent, spawnPosition, Quaternion.identity);
         }
     }
+
+
 }
