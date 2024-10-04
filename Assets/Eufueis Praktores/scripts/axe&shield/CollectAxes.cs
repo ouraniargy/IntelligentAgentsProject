@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CollectAxes : MonoBehaviour
 {
-    public AudioClip collectSound; // Αναφορά στο AudioClip για τον ήχο συλλογής
+    public AudioClip collectSound; 
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // Έλεγχος αν ο παίκτης πλησιάζει
+        if (other.CompareTag("Player")) 
         {
-            AudioSource.PlayClipAtPoint(collectSound, transform.position); // Παίζει ο ήχος
-            FindObjectOfType<AxesCounter>().CollectAxes(); // Ενημέρωση του μετρητή
-            Destroy(gameObject); // Καταστροφή του ξύλου
+            AudioSource.PlayClipAtPoint(collectSound, transform.position); 
+            FindObjectOfType<AxesCounter>().CollectAxes(); 
+            Destroy(gameObject); 
         }
     }
 }
