@@ -5,8 +5,8 @@ using UnityEngine;
 public class AgentSpawner : MonoBehaviour
 {
     public GameObject existingAgent; 
-    public int numberOfAgents = 4; // Πόσα ξύλα θα κλωνοποιηθούν
-    public float fixedHeight = 1.0f; // Σταθερό ύψος εμφάνισης
+    public int numberOfAgents = 4; 
+    public float fixedHeight = 1.0f;
     private Terrain terrain;
 
     void Start()
