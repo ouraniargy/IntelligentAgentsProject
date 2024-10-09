@@ -3,7 +3,10 @@ guid: c16afa2eeb8e509489925c4d2717049d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - existingWood: {fileID: 107796, guid: c4ad67a7cd19345449ac3646963ee9aa, type: 3}
+  - woodIconPrefab: {instanceID: 0}
+  - mapParent: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
