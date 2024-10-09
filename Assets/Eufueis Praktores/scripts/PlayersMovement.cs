@@ -24,7 +24,6 @@ public class PlayersMovement : MonoBehaviour
 
     void MoveToNearestResource()
     {
-        // Find all resource objects with the tag "Resource"
         GameObject[] resources = GameObject.FindGameObjectsWithTag("Resource");
 
         if (resources.Length == 0)
@@ -41,7 +40,6 @@ public class PlayersMovement : MonoBehaviour
             hasLoggedNoResources = false; // Reset the flag if resources are found
         }
 
-        // Find the closest resource object
         targetResource = null;
         float shortestDistance = Mathf.Infinity;
         Vector3 currentPosition = transform.position;
@@ -56,7 +54,6 @@ public class PlayersMovement : MonoBehaviour
             }
         }
 
-        // If there's a resource, set the agent's destination
         if (targetResource != null)
         {
             agent.SetDestination(targetResource.transform.position);
@@ -64,10 +61,18 @@ public class PlayersMovement : MonoBehaviour
 
         if (waypoints.Length == 0) return;
 
-        // Ορισμός νέου προορισμού
         agent.destination = waypoints[currentWaypointIndex].position;
-        currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length; // Κυκλική προορισμός
+        currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
     }
+
+    private string task;
+
+    public void AssignTask(string taskToCollect)
+    {
+        task = taskToCollect;
+        Debug.Log($"{gameObject.name} assigned to collect {task}");
+    }
+
 
     void Update()
     {
@@ -86,22 +91,45 @@ public class PlayersMovement : MonoBehaviour
 
         animator.SetBool("IsWalking", true);
 
+
+
+    }
+
+    public AudioClip collectSound;
+
+
+    private void CollectWood()
+    {
+            AudioSource.PlayClipAtPoint(collectSound, transform.position);
+            FindObjectOfType<WoodCounter>().CollectWood();
+            Destroy(gameObject);
+    }
+
+    private void CollectAxes()
+    {
+            AudioSource.PlayClipAtPoint(collectSound, transform.position);
+            FindObjectOfType<AxesCounter>().CollectAxes();
+            Destroy(gameObject);
     }
 
     private void CollectResource()
     {
-        // Get the DisappearOnApproach script from the resource and assign the agent
-        DisappearOnApproach disappearScript = targetResource.GetComponent<DisappearOnApproach>();
-        if (disappearScript != null)
+        // If the task is "Wood", collect wood
+        if (task == "Wood" && targetResource.CompareTag("Wood"))
         {
-            disappearScript.agent = this.transform; // Assign the agent
+            CollectWood();
+        }
+        // If the task is "Axe", collect axes
+        else if (task == "Axe" && targetResource.CompareTag("Axe"))
+        {
+            CollectAxes();
         }
 
-        // Collect the resource (it disappears)
+        // Destroy the resource after collection
         Destroy(targetResource);
-        targetResource = null; // Clear the target resource
+        targetResource = null;
 
-        // Immediately find the next closest resource
-        MoveToNearestResource(); // Starts moving to the next resource
+        // Move to the next nearest resource
+        MoveToNearestResource();
     }
 }
