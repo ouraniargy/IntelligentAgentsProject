@@ -2,15 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+
 
 public class AxesCounter : MonoBehaviour
 {
-    public TextMeshProUGUI axesCountText; // Αναφορά στο UI Text για το μέτρημα των σπαθιων
-    private int axesCount = 0; // Αρχικός αριθμός σπαθιων
+    public TextMeshProUGUI axesCountText; 
+    private int axesCount = 0;
+    public TextMeshProUGUI gameStatusText; 
+    private int requiredAxes = 10; 
 
     public void CollectAxes()
     {
-        axesCount++; // Αύξηση του αριθμού των σπαθιων
-        axesCountText.text = "Axes: " + axesCount; // Ενημέρωση του κειμένου
+        axesCount++; 
+        axesCountText.text = "Axes: " + axesCount; 
+        if (axesCount >= requiredAxes)
+        {
+            gameStatusText.text = "Axes Collected!";
+        }
     }
 }

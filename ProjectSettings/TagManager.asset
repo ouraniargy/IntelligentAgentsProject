@@ -9,6 +9,8 @@ TagManager:
   - Resource
   - Agent
   - PlayerTeam
+  - Axe
+  - Wood
   layers:
   - Default
   - TransparentFX
