@@ -9,8 +9,6 @@ public class AxesCounter : MonoBehaviour
     public TextMeshProUGUI axesCountText;
     private int axesCount = 0;
     private int requiredAxes = 10;
-
-
     public void CollectAxes()
     {
         axesCount++;
@@ -20,6 +18,4 @@ public class AxesCounter : MonoBehaviour
             axesCountText.text = "Axes Collected:" + axesCount;
         }
     }
-
-
 }

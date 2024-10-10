@@ -5,13 +5,17 @@ using TMPro;
 
 public class AgentAxesCounter : MonoBehaviour
 {
-    public TextMeshProUGUI axesCountText; // Reference to the UI Text for axes count
-    private int axesCount = 0; // Initial number of axes
+    public TextMeshProUGUI axesCountText;
+    private int axesCount = 0;
+    private int requiredAxes = 10;
 
     public void AgentCollectAxes()
     {
-        axesCount++; // Increase the number of axes
-        axesCountText.text = "Agent Axes : " + axesCount; // Update the text
-        Debug.Log("Axes collected! Total axes: " + axesCount);
+        axesCount++;
+        axesCountText.text = "Axes :" + axesCount;
+        if (axesCount >= requiredAxes)
+        {
+            axesCountText.text = "Axes Collected:" + axesCount;
+        }
     }
 }
