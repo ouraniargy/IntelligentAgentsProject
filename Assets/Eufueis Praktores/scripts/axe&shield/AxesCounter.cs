@@ -18,4 +18,9 @@ public class AxesCounter : MonoBehaviour
             axesCountText.text = "Axes Collected:" + axesCount;
         }
     }
+    public int GetaxesCount()
+    {
+        return axesCount; 
+    }
+
 }
