@@ -17,6 +17,11 @@ public class GoldCounter : MonoBehaviour
         CheckForGamePause();
     }
 
+    public int GetGoldCount()
+    {
+        return goldCount;
+    }
+
     private void CheckForGamePause()
     {
         if (goldCount >= 100 && woodCounter.GetWoodCount() >= 20 ) //&& axesCounter.GetaxesCount() >= 10
