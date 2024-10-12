@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
 public class AxesCounter : MonoBehaviour
 {
@@ -18,7 +17,7 @@ public class AxesCounter : MonoBehaviour
             axesCountText.text = "Axes Collected:" + axesCount;
         }
     }
-    public int GetaxesCount()
+    public int GetAxesCount()
     {
         return axesCount; 
     }

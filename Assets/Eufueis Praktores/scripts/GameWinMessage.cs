@@ -1,9 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using TMPro;
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -11,35 +6,34 @@ using TMPro;
 public class GameWinManager : MonoBehaviour
 {
     public TextMeshProUGUI winMessageText;
+    public GameObject winMessagePanel; // Αναφορά στο UI Panel για το μήνυμα νίκης
 
     // References to other resource scripts
     public WoodCounter woodCounter;
     public GoldCounter goldCounter;
-    public AxesCounter axeCounter;
+    public AxesCounter axesCounter;
 
     // Required amounts for each resource
     private int requiredWood = 20;
-    private int requiredGold = 10;
-    private int requiredAxes = 5;
+    private int requiredGold = 100;
+    private int requiredAxes = 0;
 
     void Start()
     {
-        // Hide the win message at the start of the game
         winMessageText.gameObject.SetActive(false);
+        winMessagePanel.SetActive(false);
     }
 
     void Update()
     {
-        // Check win condition in each frame
         CheckWinCondition();
     }
 
     private void CheckWinCondition()
     {
-        // Check if all resources meet their required amounts
         if (woodCounter.GetWoodCount() >= requiredWood &&
             goldCounter.GetGoldCount() >= requiredGold &&
-            axeCounter.GetaxesCount() >= requiredAxes)
+            axesCounter.GetAxesCount() >= requiredAxes)
         {
             DisplayWinMessage();
         }
@@ -47,6 +41,7 @@ public class GameWinManager : MonoBehaviour
 
     private void DisplayWinMessage()
     {
+        winMessagePanel.SetActive(true);
         winMessageText.gameObject.SetActive(true);
         winMessageText.text = "You Win! All resources collected!";
     }
