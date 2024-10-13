@@ -75,7 +75,7 @@ public class EnergyCounter : MonoBehaviour
     // Συνάρτηση που ελέγχει αν πληρούνται οι συνθήκες για την έναρξη συναλλαγής
     void CheckForTrade()
     {
-        if (potsCount < 10 & agentCounter.GetPotsCount() >10)
+        if (potsCount < 10 && agentCounter.GetPotsCount() >10)
         {
             // Εμφάνιση του παράθυρου συναλλαγής
             tradePanel.SetActive(true);

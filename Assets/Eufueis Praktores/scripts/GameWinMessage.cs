@@ -20,7 +20,7 @@ public class GameWinManager : MonoBehaviour
 
     // Required amounts for each resource
     private int requiredWood = 20;
-    private int requiredGold = 500;
+    private int requiredGold = 100;
     private int requiredAxes = 20;
 
     private bool hasGameEnded = false;
@@ -75,6 +75,7 @@ public class GameWinManager : MonoBehaviour
         {
             Debug.Log("Agent won!");
             DisplayLoseMessage();
+
         }
     }
 
