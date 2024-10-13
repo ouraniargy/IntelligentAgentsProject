@@ -15,7 +15,7 @@ public class GoldCounter : MonoBehaviour
         goldCountText.text = "Coins: " + goldCount;
         if (goldCount >= requiredGold)
         {
-            goldCountText.text = "Gold Collected:" + goldCount;
+            goldCountText.text = "Coins: " + goldCount;
         }
     }
 

@@ -11,10 +11,10 @@ public class AxesCounter : MonoBehaviour
     public void CollectAxes()
     {
         axesCount++;
-        axesCountText.text = "Axes :" + axesCount;
+        axesCountText.text = "Axes: " + axesCount;
         if (axesCount >= requiredAxes)
         {
-            axesCountText.text = "Axes Collected:" + axesCount;
+            axesCountText.text = "Axes: " + axesCount;
         }
     }
     public int GetAxesCount()

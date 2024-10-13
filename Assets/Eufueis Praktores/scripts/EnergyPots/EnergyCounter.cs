@@ -20,11 +20,17 @@ public class EnergyCounter : MonoBehaviour
     public GameObject tradePanel;  // Παράθυρο συναλλαγής
     public AgentEnergyCounter agentCounter;  // Αναφορά στον agent
 
-    void Start()
+
+
+
+      void Start()
     {
         StartCoroutine(ReduceTimeCoroutine());
         UpdateClockDisplay();  
         UpdateCoinDisplay();   // Αρχική εμφάνιση των νομισμάτων
+        Cursor.visible = true;  // Εμφανίζει τον κέρσορα
+        Cursor.lockState = CursorLockMode.None;  // Ο κέρσορας κινείται ελεύθερα
+
     }
 
     IEnumerator ReduceTimeCoroutine()
@@ -69,10 +75,10 @@ public class EnergyCounter : MonoBehaviour
     // Συνάρτηση που ελέγχει αν πληρούνται οι συνθήκες για την έναρξη συναλλαγής
     void CheckForTrade()
     {
-        if (potsCount > 10 || agentCounter.GetPotsCount() >10)
+        if (potsCount < 10 & agentCounter.GetPotsCount() >10)
         {
             // Εμφάνιση του παράθυρου συναλλαγής
-           // tradePanel.SetActive(true);
+            tradePanel.SetActive(true);
         }
     }
 

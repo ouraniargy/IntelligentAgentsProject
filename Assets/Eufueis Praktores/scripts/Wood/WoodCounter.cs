@@ -15,7 +15,7 @@ public class WoodCounter : MonoBehaviour
         woodCountText.text = "Wood: " + woodCount;
         if (woodCount >= requiredWood)
         {
-            woodCountText.text = "Wood Collected: " + woodCount;
+            woodCountText.text = "Wood: " + woodCount;
         }
     }
 

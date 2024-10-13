@@ -11,7 +11,7 @@ public class AgentGoldCounter : MonoBehaviour
     public void AgentCollectGold()
     {
         goldCount = goldCount + 10;
-        goldCountText.text = "Agent Coins : " + goldCount;
+        goldCountText.text = "Coins: " + goldCount;
         Debug.Log("10 Coins collected! Total Coins: " + goldCount);
     }
 }

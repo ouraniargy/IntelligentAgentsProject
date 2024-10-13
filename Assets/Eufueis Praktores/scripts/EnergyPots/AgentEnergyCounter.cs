@@ -34,7 +34,7 @@ public class AgentEnergyCounter : MonoBehaviour
     public void AgentCollectEnergy()
     {
         potsCount++; 
-        potsCountText.text = "Agent Energy Pots : " + potsCount;
+        potsCountText.text = "Energy Pots : " + potsCount;
         AddTimeFromPot();
         Debug.Log("Energy Pots collected! Total pots: " + potsCount);
     }
@@ -56,7 +56,7 @@ public class AgentEnergyCounter : MonoBehaviour
         if (potsCount >= potsToTransfer)
         {
             potsCount -= potsToTransfer;
-            potsCountText.text = "Agent Energy Pots: " + potsCount;
+            potsCountText.text = "Energy Pots: " + potsCount;
         }
         else
         {

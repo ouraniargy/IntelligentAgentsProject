@@ -13,10 +13,10 @@ public class AgentWoodCounter : MonoBehaviour
     public void AgentCollectWood()
     {
         woodCount++;
-        woodCountText.text = "Wood :" + woodCount;
+        woodCountText.text = "Wood: " + woodCount;
         if (woodCount >= requiredWood)
         {
-            woodCountText.text = "Wood Collected:" + woodCount;
+            woodCountText.text = "Wood: " + woodCount;
         }
     }
 }
