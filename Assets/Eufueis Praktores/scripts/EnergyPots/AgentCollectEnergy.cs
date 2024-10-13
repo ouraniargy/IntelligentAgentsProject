@@ -12,6 +12,12 @@ public class AgentCollectEnergy : MonoBehaviour
             FindObjectOfType<AgentEnergyCounter>().AgentCollectEnergy(); 
             Destroy(gameObject); 
         }
+        if (other.CompareTag("PlayerTeam"))
+        {
+            Debug.Log("Team of Player collected an energy pot.");
+            FindObjectOfType<EnergyCounter>().CollectEnergy();
+            Destroy(gameObject);
+        }
     }
 
 }

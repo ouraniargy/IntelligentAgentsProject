@@ -12,5 +12,11 @@ public class AgentCollectWood : MonoBehaviour
             FindObjectOfType<AgentWoodCounter>().AgentCollectWood(); // Ενημέρωση του μετρητή
             Destroy(gameObject); // Καταστροφή του ξύλου
         }
+        if (other.CompareTag("PlayerTeam"))
+        {
+            Debug.Log("Team of Player collected a piece of wood.");
+            FindObjectOfType<WoodCounter>().CollectWood();
+            Destroy(gameObject);
+        }
     }
 }

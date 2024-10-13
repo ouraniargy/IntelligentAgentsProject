@@ -13,5 +13,11 @@ public class AgentCollectAxes : MonoBehaviour
             FindObjectOfType<AgentAxesCounter>().AgentCollectAxes(); // Ενημέρωση του μετρητή
             Destroy(gameObject); // Καταστροφή του ξύλου
         }
+        if (other.CompareTag("PlayerTeam"))
+        {
+            Debug.Log("Team of Player collected an axe.");
+            FindObjectOfType<AxesCounter>().CollectAxes();
+            Destroy(gameObject);
+        }
     }
 }

@@ -12,5 +12,12 @@ public class AgentCollectGold : MonoBehaviour
             FindObjectOfType<AgentGoldCounter>().AgentCollectGold(); 
             Destroy(gameObject); 
         }
+        if (other.CompareTag("PlayerTeam"))
+        {
+            Debug.Log("Team of Player collected 10 coins.");
+            FindObjectOfType<GoldCounter>().CollectGold();
+            Destroy(gameObject);
+        }
     }
+
 }

@@ -19,4 +19,9 @@ public class AgentWoodCounter : MonoBehaviour
             woodCountText.text = "Wood: " + woodCount;
         }
     }
+
+    public int GetWoodCount()
+    {
+        return woodCount;
+    }
 }

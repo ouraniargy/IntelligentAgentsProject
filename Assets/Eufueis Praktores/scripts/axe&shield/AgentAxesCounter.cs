@@ -18,4 +18,8 @@ public class AgentAxesCounter : MonoBehaviour
             axesCountText.text = "Axes: " + axesCount;
         }
     }
+    public int GetAxesCount()
+    {
+        return axesCount;
+    }
 }
